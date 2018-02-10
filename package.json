@@ -1,24 +1,19 @@
 {
   "name": "scooper",
   "version": "1.0.0",
-  "description": "A CLI app to see what flavors of ice cream are available at Izzy's",
+  "description":
+    "A CLI app to see what flavors of ice cream are available at Izzy's",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "bin": { "tcscoops": ".index.js" },
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   },
   "author": "kyledhebert",
   "license": "MIT",
