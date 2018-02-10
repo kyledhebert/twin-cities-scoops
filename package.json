@@ -1,0 +1,44 @@
+{
+  "name": "scooper",
+  "version": "1.0.0",
+  "description": "A CLI app to see what flavors of ice cream are available at Izzy's",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "author": "kyledhebert",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/inquirer": "0.0.36",
+    "@types/jest": "^22.1.2",
+    "@types/lodash": "^4.14.102",
+    "jest": "^22.2.2",
+    "ts-jest": "^22.0.3",
+    "typescript": "^2.7.1"
+  }
+}
