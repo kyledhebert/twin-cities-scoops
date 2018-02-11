@@ -1,20 +1,28 @@
 {
   "name": "tcscoops",
-  "version": "1.0.0",
-  "description":
-    "A CLI app to see what flavors of ice cream are available at Twin Cities ice cream shops",
+  "version": "1.0.1",
+  "description": "A CLI app to see what flavors of ice cream are available at Twin Cities ice cream shops",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest"
   },
-  "bin": { "tcscoops": "dist/index.js" },
+  "bin": {
+    "tcscoops": "dist/index.js"
+  },
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "author": "kyledhebert",
   "license": "MIT",
