@@ -18,6 +18,10 @@
   },
   "author": "kyledhebert",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyledhebert/twin-cities-scoops"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "chalk": "^2.3.0",
