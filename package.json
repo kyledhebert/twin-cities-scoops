@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest"
   },
-  "bin": { "tcscoops": ".index.js" },
+  "bin": { "tcscoops": "dist/index.js" },
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
