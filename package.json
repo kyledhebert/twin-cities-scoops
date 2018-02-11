@@ -1,9 +1,10 @@
 {
-  "name": "scooper",
+  "name": "tcscoops",
   "version": "1.0.0",
   "description":
-    "A CLI app to see what flavors of ice cream are available at Izzy's",
-  "main": "index.js",
+    "A CLI app to see what flavors of ice cream are available at Twin Cities ice cream shops",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest"
   },
