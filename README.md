@@ -4,7 +4,7 @@ Quickly see what flavors are currently on offer at some of the Twin Cities' best
 
 ## Install
 
-`npm intall -g tcscoops`
+`npm install -g tcscoops`
 
 ## Usage
 
