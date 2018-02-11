@@ -1,6 +1,6 @@
 {
   "name": "tcscoops",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI app to see what flavors of ice cream are available at Twin Cities ice cream shops",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
